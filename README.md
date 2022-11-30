@@ -1,0 +1,4 @@
+- 👋 Hi, I’m Sanskar Shimpi
+- 👀 I’m interested in A.I.
+- 🌱 I’m currently learning C++
+- 📫 Contact me on email: sanskarshimpi@outlook.com
