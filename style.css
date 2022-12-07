@@ -1,141 +1,74 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Josefin Sans", sans-serif;
-}
 
-header {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
-    url("../images/taj.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+body, html {
+	background: #ECEDEF;
+	margin: 0;
+	padding: 0;
 }
-
-nav {
-  width: 100%;
-  height: 15vh;
-  background: rgba(0, 0, 0, 0.2);
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-transform: uppercase;
+ 
+.container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+	border-radius: 14px;
+	padding-bottom: 20px;
+	width: 320px;
+	
 }
-
-nav .logo {
-  width: 25%;
-  text-align: center;
-  /*background: red;*/
+.display {
+	width: 100%;
+	height: 60px;
+	padding: 40px 0;
+	background: #FF0509;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
 }
-
-nav .menu {
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
+.buttons {
+	padding: 20px 20px 0 20px;
 }
-
-nav .menu a {
-  width: 25%;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
+.row {
+	width: 280px;
+	float: left;
 }
-
-nav .menu a:first-child {
-  color: #00b894;
+input[type=button] {
+	width: 60px;
+	height: 60px;
+	float: left;
+	padding: 0;
+	margin: 5px;
+	box-sizing: border-box;
+	background: #ecedef;
+	border: none;
+	font-size: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	font-weight: 700;
+	color: #5E5858;
+	cursor: pointer;
+	
 }
-
-main {
-  width: 100%;
-  height: 85vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
+input[type=text] {
+	width: 270px;
+	height: 60px;
+	float: left;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	background: none;
+	color: #ffffff;
+	text-align: right;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 60px;
+	margin: 0 25px;
+	
 }
-
-section h3 {
-  font-size: 35px;
-  font-weight: 200;
-  letter-spacing: 3px;
-  text-shadow: 1px 1px 2px black;
+.red {
+	background: #FF0509 !important;
+	color: #ffffff !important;
+	
 }
-
-section h1 {
-  margin: 30px 0 20px 0;
-  font-size: 55px;
-  font-weight: 700;
-  text-shadow: 2px 1px 5px black;
-  text-transform: uppercase;
-}
-
-section p {
-  font-size: 25px;
-  word-spacing: 2px;
-  margin-bottom: 25px;
-  text-shadow: 1px 1px 1px black;
-}
-
-section a {
-  padding: 12px 30px;
-  border-radius: 4px;
-  outline: none;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 500;
-  text-decoration: none;
-  letter-spacing: 1px;
-  transition: all 0.5s ease;
-}
-
-section .btnone {
-  /*background: #00b894;*/
-  background: #fff;
-  color: #000;
-}
-
-.btnone:hover {
-  background: #00b894;
-  color: white;
-}
-
-section .btntwo {
-  background: #00b894;
-  color: white;
-}
-
-.btntwo:hover {
-  background: #fff;
-  color: #000;
-}
-
-.change_content:after {
-  content: "";
-  animation: changetext 10s infinite linear;
-  color: #00b894;
-}
-
-@keyframes changetext {
-  0% {
-    content: "Darjeeling";
-  }
-  20% {
-    content: "Agra";
-  }
-  35% {
-    content: "Jaipur";
-  }
-  60% {
-    content: "kerala";
-  }
-  80% {
-    content: "delhi";
-  }
-  100% {
-    content: "Mumbai";
-  }
-}
+Preview
+If you are using a phone click on Result for preview
